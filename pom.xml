@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.squad</groupId>
 	<artifactId>ForexPay</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<name>ForexPay</name>
 	<description>Money Transfer project for Spring Boot</description>
 
@@ -69,11 +69,11 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-  <repository>
-    <id>nexus</id>
-    <url>http://3.12.160.96:8081/nexus/content/repositories/releases</url>
-  </repository>
-</distributionManagement>
+		 <repository>
+                   <id>nexus</id>
+                   <url>http://3.12.160.96:8081/nexus/content/repositories/releases</url>
+                 </repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
