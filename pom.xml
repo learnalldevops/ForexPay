@@ -69,11 +69,11 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://3.12.160.96:8081/nexus/content/repositories/releases</url>
-		</snapshotRepository>
-	</distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://3.12.160.96:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
 
 	<build>
 		<plugins>
