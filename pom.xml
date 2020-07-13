@@ -121,7 +121,7 @@
                              <artifactId>flyway-maven-plugin</artifactId>
                              <version>6.3.2</version>
 			     <configuration>
-                              <url>jdbc:mysql://3.22.112.0:3306</url>
+                              <url>jdbc:mysql://3.17.36.241:3306</url>
                               <user>inguser1</user>
 		              <password>H@ckath0n</password>
 			      <schemas>
