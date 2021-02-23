@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.squad</groupId>
 	<artifactId>ForexPay</artifactId>
-	<version>4.0.11-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>ForexPay</name>
 	<description>Money Transfer project for Spring Boot</description>
 
@@ -24,9 +24,9 @@
 		</sonar.coverage.exclusions>
 	</properties>
 	<scm>
-		   <connection>scm:https://github.com/singhmohini/ForexPay.git</connection>
-		   <url>https://github.com/singhmohini/ForexPay.git</url>
-		   <developerConnection>scm:git:https://github.com/singhmohini/Forexpay.git</developerConnection>
+		   <connection>scm:https://github.com/learnalldevops/ForexPay.git</connection>
+		   <url>https://github.com/learnalldevops/ForexPay.git</url>
+		   <developerConnection>scm:git:https://github.com/learnalldevops/Forexpay.git</developerConnection>
 		   <tag>HEAD</tag>
         </scm>
 
@@ -80,11 +80,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://3.12.229.137:8081/nexus/content/repositories/snapshots</url>
+			<url>http://13.235.33.147:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 		 <repository>
                    <id>nexus</id>
-                   <url>http://3.12.229.137:8081/nexus/content/repositories/releases</url>
+                   <url>http://13.235.33.147:8081/nexus/content/repositories/releases</url>
                  </repository>
 	</distributionManagement>
 
